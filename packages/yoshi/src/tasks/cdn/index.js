@@ -40,7 +40,7 @@ module.exports = async ({
     }
   }
 
-  console.log(`\tRunning cdn on port ${port}...`);
+  console.log(`\tRunning cdn on http://localhost:${port}`);
 
   let middlewares = [];
 
